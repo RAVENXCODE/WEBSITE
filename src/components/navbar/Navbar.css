@@ -1,0 +1,1200 @@
+*
+{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+}
+
+#n1
+{  
+  position: fixed;
+  padding-top: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+  z-index: 99;
+ height: 50px;
+  background-color: rgba(255, 255, 255,0.6);
+ width: 100%;
+ padding-bottom: 5px;
+}
+
+#n2
+{   
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 16px;
+    width: 790px;
+    box-sizing: border-box;
+    position: relative;
+    left: 80px;
+  
+}
+
+
+
+#n2 a
+{
+  
+    padding: 14px 17px 14px 17px;
+    border-radius: 19px;
+}
+
+#n2 a:hover 
+{
+    background: linear-gradient(145deg,rgb(0, 5, 148),rgb(0, 34, 255),rgb(5, 0, 137));
+    color: white;
+    cursor: pointer;
+    
+}
+
+#btn
+{
+    border: none;
+    position: relative;
+    left: 200px;
+    border-radius: 15px;
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));    
+    margin: 10px;
+    background-size: 150% auto;
+    padding: 13px 35px;
+    text-align: center;
+    color: white;            
+    bottom: 2px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    font-size: larger;
+    font-weight: 600;
+   
+    
+  }
+
+#btn:hover
+{
+  background-position: right;
+}
+
+                                                           /* SUB HEADER */
+ 
+#pan
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position: absolute;
+    top:45px;
+    left: -300px;
+    align-self: center;
+    box-shadow: 0px 0px 9px 3px rgb(199, 199, 199);
+    height: 0px;
+    width: 1400px;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    visibility: hidden;
+   transition: 0.3s ease-out;
+   overflow: hidden;
+}                                                           
+             
+#pan1
+{
+    position: relative;
+    top: 12px;
+    left: 25px;
+    font-size: 17px;
+}
+
+#pan2
+{
+    display: flex;
+    align-self: center;
+    width: 94%;
+    position: relative;
+    top: 15px;
+    
+}
+
+#pan3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    line-height: 48px;
+    font-size: 15px;
+    left: 17px;
+    width: 95%;
+}
+
+
+.pan311
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 1px 120px 1px 15px;
+    
+}
+
+.pan311 img
+{
+  width: 25px;
+  height: 25PX;
+
+}
+
+.pan312
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+}
+
+.pan311:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+#pan4
+{
+    font-size: 17px;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+#pan5
+{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 52px;
+    left: 12px;
+   
+}
+.pan52
+{
+   width: 280px;
+   display: flex;
+   align-items: center;
+   height: 80px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 6px 1px rgb(252, 252, 255);
+}
+
+#pan6
+{
+    position: relative;
+    top: 110px;
+    width:100% ;
+    border-radius: 25px;
+}
+
+.pan51
+{
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #cbe0ff;
+    position: relative;
+    left: 15px;
+}
+
+
+
+                                                           /* Solutions */
+
+#qan
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position: absolute;
+    
+    align-self: center;
+    height: 0px;
+    width: 1400px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 9px 3px rgb(199, 199, 199);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+   visibility: hidden;
+   transition: 0.3s ease-out;
+   overflow: hidden;
+   top:45px;
+   left: -300px;
+}     
+
+#qan1
+{
+    position: relative;
+    top: 15px;
+    left: 42px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+#qan11
+{
+    position: relative;
+    right: 20px;
+    top:-15px
+}
+#qan12
+{
+    position: relative;
+    left:470px; top: -15px;
+    
+}
+
+#qan13
+{
+    position: relative;
+    left:550px;
+    top : -15px;
+}
+
+#qan2
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 19px;
+   
+}
+
+#qan21
+{
+    width: 670px;
+    position: relative;
+    left: 10px;
+     bottom: 27px;
+}
+
+#qan22
+{
+    width: 320px;
+    position: relative;
+    right: -5px;
+    bottom: 27px;
+    
+}
+
+#qan23
+{
+    width: 265px;
+    position: relative;
+    right: 5px;
+    bottom: 27px;
+}
+
+#qan31
+{
+    display: flex;
+    flex-direction: row;
+   
+    position: relative;
+    top: px;
+    
+    font-size: 15px;
+    left: 34px;
+    width: 95%;
+}
+
+.qan311
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 1px 60px 1px 15px;
+    line-height: 43px;
+    
+}
+
+.qan311 img
+{
+  width: 25px;
+  height: 25PX;
+
+}
+
+.qan311:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.qan312
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: #ffffffc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+}
+
+#qan32
+{
+    position: relative;
+    left: 32px;
+}
+
+#qan4
+{
+    position: relative;
+    left: 70px;
+}
+
+#qan5
+{
+    position: relative;
+    left: 125px;
+}
+
+#qan6
+{
+    position: relative;
+    top: 5px;
+    width: 870px; 
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    left: 47px;
+    font-weight: 600;
+}
+
+#qan61
+{
+    position: relative;
+    right: 32px;
+}
+
+#qan62
+{
+    position: relative;
+    right: 15px;
+}
+
+#qan63
+{
+    position: relative;
+    left: 24px;
+}
+
+#qan7
+{
+    display: flex;
+    flex-direction: row;
+  position: relative;
+  top: -5px;
+ 
+}
+
+.qan74
+{
+    width: 300px;
+    position: relative;
+    
+}
+
+#qan71
+{
+    position: relative;
+   left: 13px;
+}
+
+#qan72
+{
+    position: relative;
+    
+}
+
+#qan73
+{
+    position: relative;
+    right: 25px;
+    width: 600px
+}
+
+#qan8
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: px;
+    left: 38px;
+    line-height: 19px;
+}
+
+#qan82
+{
+    position: relative;
+    left: 122px;
+}
+
+#qan83
+{
+    position: relative;
+    left: 215px;
+}
+
+
+#qan84
+{
+    position: relative;
+    left: 235px;
+}
+
+#ran
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position: absolute;
+    top:45px;
+    left: -300px;
+    align-self: center;
+    height: 0px;
+    width: 1400px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 9px 3px rgb(199, 199, 199);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition  : 0.4s ease-out;
+    overflow: hidden;
+    
+    
+}
+
+#ran1
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 3px;
+    right: 120px;
+    
+}
+
+.ran12
+{
+    font-weight: 600;
+    position: relative;
+    left: 15px;
+}
+
+#ran13
+{
+    position: relative;
+    left: 19px;
+}
+
+#ran14
+{
+    position: relative;
+    left: 62px;
+}
+
+#ran15
+{
+    position: relative;
+    left: 78px;
+}
+
+#ran2
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 20px;
+}
+#ran23
+{
+    position: relative;
+    left: -6px;
+}
+.ran21
+{
+     width: 295px;
+     position: relative;
+     top: 15px;
+     left:  3px;
+}
+
+.ran312
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: #ffffffc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+    
+   
+}
+
+.ran311
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 1px 80px 1px 15px;
+    line-height: 40px;
+    font-weight: 200;
+}
+
+.ran311 img
+{
+    width: 25px;
+    height: 25PX;
+  
+}
+
+.ran311:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+#ran9
+{
+    position: relative;
+     bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+
+    
+}
+
+#ran4
+{
+    position: relative;
+    right: 8px;
+}
+
+#ran5
+{
+    position: relative;
+    right: 12px;
+}
+
+#ran7
+{
+    position: relative;
+    bottom: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    right: 45px;
+}
+
+#ran72
+{
+    position: relative;
+    right: 60px;
+}
+
+#ran73
+{
+    position: relative;
+    right: 35px;
+}
+
+#ran8
+{
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 19px;
+}
+
+.ran81
+{
+    width: 290px;
+}
+
+#ran74
+{
+    position: relative;
+    right: 20px;
+}
+
+#san9
+{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+#san4
+{
+    position: relative;
+    right: 25px;
+}
+
+#san5
+{
+    position: relative;
+    right: 40px;
+}
+
+#san6
+{
+    position: relative;
+    right: 15px;
+}
+
+#ran6
+{
+
+    position: relative;
+    right: 2px;
+
+}
+
+                                                   /* HIRE DEVS */
+
+#tan
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position: absolute;
+ 
+    align-self: center;
+    height: 0px;
+    width: 1400px;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    box-shadow: 0px 0px 9px 3px rgb(199, 199, 199);
+    top:45px;
+    left: -300px;
+    overflow: hidden;
+    transition: 0.4s ease-out;
+}
+
+.tan311
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 1px 80px 1px 15px;
+    line-height: 45px;
+    font-weight: 200;
+}
+
+.tan311 img
+{
+    width: 25px;
+    height: 25PX;
+  
+}
+#tan13
+{
+    position: relative;
+    left: 4px;
+}
+
+#tan14
+{
+    position: relative;
+    left: 8px;
+}
+
+#tan15
+{
+    position: relative;
+    left: 55px;
+}
+
+#tan2
+{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+
+}
+
+.tan21
+{
+  
+    
+         width: 290px;
+         position: relative;
+         top: 15px;
+     
+}
+
+
+
+.tan12{
+  font-weight: 600;
+}
+
+#tan7
+{
+    position: relative;
+    top: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    right: 45px;
+}
+
+#tan9
+{
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 13px;
+}
+
+#tan1
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 12px;
+    right:100px;
+}
+
+#tan23
+{
+    position: relative;
+    right: 12px;
+}
+
+#tan22
+{
+    position: relative;
+    right: 2px;
+}
+
+#tan24
+{
+    position: relative;
+    right: 14px;
+}
+
+#tan25
+{
+    position: relative;
+    right: 20px;
+}
+
+#uan7
+{
+    position: relative;
+    top: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    right: 60px;
+}
+
+#uan8
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    }
+
+    #uan3
+{
+    position: relative;
+   
+    top: 50px;
+}
+#uan4
+{
+    position: relative;
+    left: 32px;
+    top: 50px;
+}
+
+#uan5
+{
+    position: relative;
+    left:   -5px;
+    top: 50px;
+}
+
+#uan6
+{
+     position: relative;
+     right: 17px;
+    top: 50px;
+
+}
+
+#uan72
+{
+    position: relative;
+    right: 14px;
+}
+
+#uan73
+{
+    position: relative;
+    right: 24px;
+}
+
+#uan74
+{
+    position: relative;
+    right: 45px;
+}
+
+#uan83
+{
+    position: relative;
+    right: 5px;
+}
+
+#uan84
+{
+    position: relative;
+    right: 10px;
+}
+
+#uan85
+{
+    position: relative;
+    right: 12px;
+}
+
+                                                        /*Industries*/
+
+  #van
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position: absolute;
+    top:45px;
+    left: -300px;
+    align-self: center;
+    height: 0px;
+    width: 1400px;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+      z-index: 3;
+    visibility: hidden;
+    transition: 0.3s;
+      box-shadow: 0px 0px 9px 3px rgb(199, 199, 199);
+      overflow: hidden;
+    
+}
+
+#van1
+{
+    font-weight: 600;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+
+#van2
+{
+    width: 98%;
+    position: relative;
+    top: 9px;
+}
+
+#van3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 25px;
+}
+
+.van311
+{
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+    width: 310px;
+    height: 65px;
+    margin-top: 35px;
+    position: relative;
+    bottom: 25px;
+    border-radius: 15px;
+   
+}
+
+                                                         /*RESOURCES*/
+
+#wan
+{
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    position:absolute;
+    top:45px;
+    left: -30px;
+    height: 0px;
+   
+    width: 820px;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    box-shadow: 0px 0px 9px 3px rgb(88, 88, 88);
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.3s;
+}                                         
+
+#wan1
+{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -6px;
+}
+
+#wan11
+{
+    position: relative;
+    left: 15px;    
+}
+#wan12
+{
+    position: relative;
+    right: 468px;    
+}
+
+#wan2
+{
+     display: flex;
+    
+  
+}
+
+#wan21
+{
+    width: 200px;
+    position: relative;
+    right: 12px;
+}
+
+#wan22
+{
+    width: 540px;
+    position: relative;
+    right: 5px;
+}
+
+.wan311
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 1px 80px 1px 15px;
+    line-height: 48px;
+    font-weight: 200;
+}
+
+.wan311 img
+{
+    width: 25px;
+    height: 25PX;
+  
+}
+
+.wan312
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: #ffffffc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+   
+}
+
+#wan3
+{
+    position: relative;
+    top: -5px;
+    font-size: 14px;
+}
+
+#wan4 img
+{
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+#wan4{
+     position: relative;
+     left: 400px;
+     top: -100px;
+     display: flex;
+   justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+#wan41
+{
+    position: relative;
+    bottom: 49px;
+    right: 240px;
+}
+
+#wan42
+{
+    position: relative;
+    bottom: 49px;
+    right: 350px;
+}
+
+#wan5
+{
+    display: flex;
+    position: relative;
+    bottom: 135px;
+    left: 90px;
+    justify-content: space-evenly;
+
+    
+}
+
+#wan5 a
+{
+    color: hsla(0, 0%, 100%, 0.753);
+    font-size: 14px;
+    font-weight: 600;
+ 
+}
+
+#wan51
+{
+   box-shadow: 0px 0px 5px 2px;
+}
+
+#wan52
+{
+    
+    position: relative;
+    right: 13px;
+    box-shadow: 0px 0px 5px 2px;
+}
+
+#wan5 div
+{
+     padding: 6px 25px 6px 25px;
+     border-radius: 15px;
+    
+}
+
+#logo
+{
+    position: relative;
+    right: 100px;
+}
+
+#co:hover #pan
+{
+    visibility: visible;
+    height: 470px;
+}
+
+#so:hover #qan
+{
+    visibility: visible;
+    height: 540px;
+}
+
+#se:hover #ran
+{
+    visibility: visible;
+     
+    height: 580px;
+}
+
+#hi:hover #tan
+{
+    visibility: visible;
+    height: 560px;
+}
+
+#in:hover #van
+{
+     visibility: visible;
+     height: 470px;
+}
+
+#re:hover #wan
+{
+    visibility: visible;
+    height: 300px;
+}
+
+#tan190
+{
+    position: relative;
+    left: 15px;
+}
+

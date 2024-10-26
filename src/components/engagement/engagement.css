@@ -1,0 +1,101 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+ html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+ }
+ 
+ #m1 {
+    height: 270px;
+    width: 100%;
+    background-color: rgb(6, 0, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ #m2 h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+ }
+ 
+#m3
+{
+   height:550px;
+   width: 400px;
+   box-shadow: 1px 1px 9px  rgb(199, 199, 199);
+   border-radius: 15px;
+   position: relative;
+   right: -100px;
+}
+
+#m4
+{
+   height: 70px ;
+   background-color: rgb(67, 205, 255);
+   width: 100%;
+   position: relative;
+   bottom: 42px;
+   border-radius: 15px 15px 1px 1px;
+}
+ 
+#m4 h1
+{
+   position: relative;
+   left: 20px;
+   top: 15px;
+   color: rgb(8, 0, 76);
+}
+
+#m5 h1
+{
+   color: rgb(0, 0, 84);
+   position: relative;
+   left: 20px;
+   font-size: 22px;
+   bottom: 35px;
+}
+
+#m5 p 
+{
+   position: relative;
+   left: 20px;
+   font-size: 18px;
+   line-height: 27px;
+   bottom: 35px;
+}
+
+
+
+#m6 
+{
+  list-style: circle;
+  list-style-position:outside;
+  
+
+line-height: 20px;
+
+ 
+}
+
+#m6 li::marker
+{
+  
+   font-size: 50px;
+ 
+}
+
+#m6 li
+{
+   
+}
+

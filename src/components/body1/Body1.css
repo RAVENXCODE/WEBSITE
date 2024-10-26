@@ -1,0 +1,1015 @@
+#root
+{
+    margin:0 ;
+    padding: 0;
+    height: auto;
+}
+#bo1
+{
+ 
+    position: relative;
+    top: 150px;
+    display: flex;
+    font-weight: 700;
+    font-size: 40px;
+    left: 40px;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 60px;
+     width: 50%;
+    padding: 10px 20px 10px 20px;
+   
+    border-radius:20px ;
+}
+
+#bo1 a{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+#bo11
+{
+    color: rgb(0, 6, 124);
+    font-weight: 700;
+    font-size: 42px;
+    
+}
+
+
+#YAA1
+{
+    width: 100px;
+}
+
+#bo2
+{
+    display: flex;
+    flex-direction: row;
+     width: 50%;
+    justify-content: space-evenly;
+   
+    position: relative;
+    top:180px;
+    left: 60px;
+    
+}
+
+.bo21
+{
+    width: 125px;
+    height: 125px;
+   display: flex;
+   background: linear-gradient(145deg,rgb(1, 3, 74),rgb(0, 17, 131),rgb(1, 3, 74));
+    box-shadow: 0px 0px 5px 0px blue ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 125px;
+}
+
+.bo21 img{
+    width: 80px;
+    
+}
+
+#bo22
+{
+    position: relative;
+    left: 5px;
+}
+
+#bo3
+{
+  display: flex;
+  font-size: smaller;
+  font-family: system-ui, -apple-system;
+  font-weight: 600;
+  position: relative;
+  top: 195px;
+  justify-content: space-evenly;
+  cursor: pointer;
+  right: 330px;
+}
+
+#bo31
+{
+    position: relative;
+    left: 200px;
+}
+
+#bo32
+{
+    position: relative;
+    right: 190px;
+}
+
+#bo4
+{
+    width: 500px;
+    position: relative;
+    bottom: 74px;
+    left: 1019px;
+}
+
+#bo5
+{
+    width: 500px;
+    position: relative;
+    bottom: 104px;
+    right: 500px;
+}
+
+#bo33
+{
+    position: relative;
+    left: 3px;
+}
+
+
+  
+  .video-element {
+    width: 100%;
+   z-index: -1;
+   position: relative;
+   bottom: 300px;
+   
+  }
+
+#bo4
+{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(1, 3, 71),rgb(1, 3, 74));
+    position:absolute;
+    top: 760px;
+    left: 0.1px;
+ 
+}
+
+#bo4 h3
+{
+     position: absolute;
+    
+     top: 130px;
+     font-size: 55px;
+     color: rgb(122, 122, 255);
+}
+
+.bo41
+{
+    display: inline-block;
+    left: 150px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+
+#bo4 h5
+{
+   font-size: 40px;
+   position: relative;
+   top: 190px;
+   font-weight: 600;
+    
+}
+
+#bo42
+{
+
+    font-size: 18px;
+    top: 300px;
+    color: rgb(206, 232, 255);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#bo51 
+{
+    
+    
+   
+   display: flex;
+   flex-direction: column;
+   
+}
+
+#bo52
+{
+    
+   
+ 
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+#bo5
+{
+
+left: 150px;
+display: flex;
+column-gap: 100px;
+width: 700px;
+top: 250px;
+font-size: 13px;
+color: rgb(255, 255, 255);
+line-height: 28px;
+}
+
+#bo51 img 
+{
+    width: 20px;
+    margin-right: 5px;
+    
+}
+#bo51 a 
+{
+    display: flex;
+    align-items: center;
+}
+
+#bo52 img 
+{
+    width: 20px;
+    margin-right: 5px;
+}
+#bo52 a 
+{
+    display: flex;
+    align-items: center;
+}
+
+
+#bo6
+{
+   border: none;
+   padding: 14px 22px 14px 22px;
+   font-weight: 600;
+   background: blue;
+   color: rgb(255, 255, 255);
+   font-size: 17PX;
+   position: relative;
+   left: 150px;
+   top: 270px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+#bo7
+{
+    width:570px;
+    position: absolute;
+    left:780px;
+    bottom: 75px;
+   
+}
+
+#bo8
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#bo8 div
+{
+   box-shadow: 0px 0px 9px 4px rgb(4, 0, 255);
+  
+    width: 200px;
+    height: 93px;
+    position: relative;
+    left: 820px;
+    top: 200px;
+    margin-right: 100px;
+    background: linear-gradient(145deg,rgb(1, 3, 74),rgb(1, 3, 71),rgb(1, 3, 74));
+   
+}
+
+#bo81 h1
+{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+
+#bo81 h4
+{
+     color: rgb(94, 148, 255);
+     position: relative;
+     bottom: 123px;
+     left: 15px;
+     font-size: 25px;
+
+}
+
+#bo82 h4
+{
+     color: rgb(94, 148, 255);
+     position: relative;
+     bottom: 123px;
+     left: 15px;
+     font-size: 25px;
+
+}
+
+#bo82 h1
+{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+
+#bp1 
+{
+  
+    height: 3700px;
+    background-color: rgb(244, 248, 255);
+    
+}
+
+#bp1 h1 
+{
+     color: rgb(0, 4, 110);
+     font-size: 55px;
+     
+     position:relative;
+     font-weight: 800;
+     top: 410px;
+     display: flex;
+     justify-content: center;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+#bp1 h3
+{
+    color: rgb(0, 0, 0);
+     font-size: 40px;
+     
+     position:relative;
+     font-weight: 700;
+     top: 355px;
+     display: flex;
+     justify-content: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bp2
+{
+    width: 600px;
+    height: 380px;
+    background-color: rgb(1, 0, 87);
+    position: relative;
+     top: 650px;
+     left: 919px;
+}
+
+#bp21
+{
+    width: 290px;
+    position: relative;
+    left: 780px;
+    z-index: 2;
+    top: 40px;
+    
+}
+
+#bp22
+{
+    width: 330px;
+    z-index: 3;
+    position: relative;
+    left: 790px;
+    top: -10px;
+}
+
+#bp3
+{ 
+    position: relative;
+    right: 450px;
+    display: inline-block;
+}
+
+#bp31
+{
+    font-size: 34px;
+ 
+    color: rgb(0, 44, 120);
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+#bp32
+{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 40px;
+    position: relative;
+  
+    color: rgb(47, 47, 47);
+    width: 584px;
+    height: 232px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#bp4
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    font-weight:500;
+    position: relative;
+    bottom: 90px;
+    font-size: 14px;
+   
+}
+
+.bp43 img
+{
+     width: 25px;
+     margin-right:7px ;
+     position: relative;
+     bottom: 2px;
+}
+
+.bp43
+{
+   display: flex;
+    align-items: center;
+  
+}
+
+.bp43
+{
+    margin-bottom: 10px;
+}
+
+.bp44
+{
+    border: 1px solid blue;
+    position: relative;
+    color: black  ;
+    width: 100%;
+    bottom: 6px;
+    
+}
+
+#bp5
+{
+   border: none;
+    background-color: rgb(0, 0, 96);
+    color: rgb(255, 255, 255);
+    padding: 17px 32px 17px 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+    border-radius: 10px;
+    
+}
+
+#ap2 
+{
+    width: 600px;
+    height: 380px;
+    background-color: rgb(1, 0, 87);
+    position: relative;
+     top: 290px;
+
+}
+
+#ap21
+{
+    width: 650px;
+    position: relative;
+    left: 170px;
+    z-index: 2;
+    top: -200px;
+    
+}
+
+#ap3
+{ 
+    position: relative;
+    left: 270px;
+    display: inline-block;
+    top: -140px;
+}
+
+#ap31
+{
+    font-size: 34px;
+ 
+    color: rgb(0, 44, 120);
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+#ap32
+{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 40px;
+    position: relative;
+  
+    color: rgb(47, 47, 47);
+    width: 584px;
+    height: 232px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#ap4
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    font-weight:500;
+    position: relative;
+    bottom: 120px;
+    font-size: 14px;
+   
+}
+
+.ap43 img
+{
+     width: 25px;
+     margin-right:7px ;
+     position: relative;
+     bottom: 2px;
+}
+
+.ap43
+{
+   display: flex;
+    align-items: center;
+  
+}
+
+.ap43
+{
+    margin-bottom: 10px;
+}
+
+.ap44
+{
+    border: 1px solid blue;
+    position: relative;
+    color: black  ;
+    width: 100%;
+    bottom: 6px;
+    
+}
+
+#ap5
+{
+   border: none;
+    background-color: rgb(0, 0, 96);
+    color: rgb(255, 255, 255);
+    padding: 17px 32px 17px 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    position: relative;
+    left: 80px;
+    bottom: 105px;
+    border-radius: 10px;
+    
+}
+
+#cp2 
+{
+    width: 600px;
+    height: 380px;
+    background-color: rgb(1, 0, 87);
+    position: relative;
+     top: 30px;
+     left: 919px;
+
+}
+
+#cp21
+{
+    width: 890px;
+    position: relative;
+    left: 625px;
+    z-index: 2;
+    top: -560px;
+ 
+    
+}
+
+#cp3
+{ 
+    position: relative;
+    left: -730px;
+    display: inline-block;
+    top: -640px;
+   
+  
+}
+
+#cp31
+{
+    font-size: 34px;
+ 
+    color: rgb(0, 44, 120);
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+#cp32
+{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 40px;
+    position: relative;
+  
+    color: rgb(47, 47, 47);
+    width: 584px;
+    height: 232px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#cp4
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    font-weight:500;
+    position: relative;
+    bottom: 120px;
+    font-size: 14px;
+   
+}
+
+.cp43 img
+{
+     width: 25px;
+     margin-right:7px ;
+     position: relative;
+     bottom: 2px;
+}
+
+.cp43
+{
+   display: flex;
+    align-items: center;
+  
+}
+
+.cp43
+{
+    margin-bottom: 10px;
+}
+
+.cp44
+{
+    border: 1px solid blue;
+    position: relative;
+    color: black  ;
+    width: 100%;
+    bottom: 6px;
+    
+}
+
+#cp5
+{
+   border: none;
+    background-color: rgb(0, 0, 96);
+    color: rgb(255, 255, 255);
+    padding: 17px 32px 17px 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    position: relative;
+    left: 80px;
+    bottom: 110px;
+    border-radius: 10px;
+    
+}
+
+#lev
+{
+    background-color: rgb(4, 0, 71);
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    position: relative;
+    bottom: 500px;
+}
+
+#lev h2
+{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 45px;
+    color: rgb(171, 182, 255);
+}
+
+#lev1
+{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    bottom: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#lev2 div
+{   
+    position: relative;
+    bottom: 25px;
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+       background-color: rgb(217, 220, 255);
+}
+
+#lev2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lev31
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lev31 img
+{
+    width: 80px;
+}
+
+#lev32 img
+{
+    width: 70px;
+}
+
+#lev33 img
+{
+    width: 70px;
+}
+
+#lev4
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 580px;
+    color: rgb(157, 209, 255);
+    font-size: 15px;
+    right: 10px;
+}
+
+#robo
+{
+    width: 120px;
+   position: fixed;
+   z-index: 1000;
+   bottom: 10px;
+   left: 1380px;
+   
+   
+}
+
+
+#ft1
+{
+    height: 360px;
+    background-color: rgb(0, 12, 67);
+    position: relative;
+    bottom: 100px;
+}
+
+#ft3 img
+{
+    width: 250px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+
+#ft2 h3
+{
+    color: rgb(209, 209, 255);
+    position: relative;
+    left: 125px;
+    bottom: 70px;
+}
+
+.ft5
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 125px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft5 img{
+    width: 22px;
+    height: 22px;
+}
+
+#ft6 img
+{
+    width: 30px;
+    height: 30px;
+}
+
+#ft7 img
+{
+    width: 35px;
+    height: 35px;
+}   
+
+#ft4
+{
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+}
+
+#ft31
+{
+   color: rgb(211, 211, 211);
+   font-size: small;
+   position: relative;
+   left: 125px;
+   bottom: 60px;
+}
+
+#ft2
+{
+    position: relative;
+    bottom: 20px;
+}
+
+#ft8
+{
+    position: relative;
+    top: -285px;
+    left: 650px;
+}
+
+#ft9
+{
+    font-size: 25px;
+    color: rgb(252, 252, 255);
+}
+
+#ft11
+{
+    color: rgb(206, 199, 255);
+    position: relative;
+    bottom: 15px;
+}
+
+#ft12
+{
+    color: rgb(228, 228, 228);
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+}
+
+#ft13
+{
+    color: rgb(206, 199, 255);
+    position: relative;
+    bottom: 22px;
+}
+
+#ft14
+{
+    color: rgb(234, 234, 234);
+    font-size: 14px;
+    position: relative;
+    bottom: 30px;   
+}
+
+.ft17 img
+{
+   width: 27px;
+   position: relative;
+   right: 10px;
+}
+
+.ft17{
+    display: flex;
+    align-items: center;
+    line-height: 42px;
+    position: relative;
+    left: 12px;
+    color: rgb(225, 225, 225);
+    bottom: 18px;
+}
+
+#ft16
+{
+    font-size: 25px;
+    color: rgb(252, 252, 255);
+}
+ 
+#ft15
+{
+    position: relative;
+    top: -532px;
+    left: 1050px;
+}
+
+#ft18
+{
+    height: 70px;
+   background-color: rgb(0, 11, 97);
+    width: 100%;
+    position: relative;
+    bottom: 510px;
+}
+
+#ft19
+{
+    display: flex;
+    color: white;
+    position: relative;
+    right: 98px;
+}
+
+#ft19 img{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 19px;
+    left: -3px;
+   
+}
+
+#ft18
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#ft20 img{
+    width: 140px;
+}
+
+#ft21
+{
+    display: flex;
+    align-items: center;
+    color: azure; 
+    word-spacing: 2px;
+    position: relative;
+    left: 44px;
+}
+
+.ft22
+{
+   height: 18px;
+
+}
+
+#ft21 p{
+    padding-left:8px ;
+    padding-right: 9px;
+}
+
+#ft20
+{
+    position: relative;
+    left: 18px;
+}
+
+@media (max-width:490px)
+{
+    #bo1
+    {
+        font-size: 25px;
+    }
+}
